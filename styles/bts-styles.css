@@ -39,9 +39,27 @@ section.paralax{
 section.paralax p{
     color:rgb(236,240,241);
     font-family: "Crimson Text", serif;
-    text-align: right;
+    text-align: center;
     font-size: 1.7rem;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+@media only screen and (max-width: 400px) {
+    section.paralax p{
+        margin: 0;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    section.paralax p small{
+        line-height: 3rem;
+    }
+
+    section.paralax div.citacao{
+        width: 100%;
+        margin: auto;
+    }
 }
 
 section.paralax div.citacao{
