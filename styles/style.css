@@ -1,0 +1,143 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Oswald|Roboto:300,400');
+
+body{
+  font-family: "Crimson Text", sans-serif;
+  font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Oswald", sans-serif;
+}
+
+nav{
+  height: 80px;
+  line-height: 80px;
+}
+
+nav ul li a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: rgb(70, 70, 70);
+}
+
+nav .brand-logo{
+  color: rgb(50, 50, 50);
+}
+
+p {
+  line-height: 1.3em;
+}
+
+.sidenav-trigger {
+  color: rgb(112, 0, 0);
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (min-width : 1024px) {
+  .artigos-content{
+    height: 180px !important;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  } 
+}
+
+@media only screen and (max-width : 768px) {
+  .artigos-content{
+    height: 190px !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  div.nav-wrapper.container{
+    width: 95%;
+  }
+
+  #logo-container{
+    width: 50%;
+  }
+
+  nav{
+    height:67px;
+    line-height: 67px;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+footer ul li{
+  margin-bottom: 6px;
+}
+
+.card{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.card-title{
+  font-family: "Crimson Text", sans-serif;
+  font-size: 1em;
+}
+
+.card-image, .card-image img{
+  height: 200px !important;
+}
+
+.card-action{
+  text-align: center;
+}
+
+.card-action a{
+  margin-right: 0 !important;
+}
+
+.artigos-content{
+  height: 150px;
+}

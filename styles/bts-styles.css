@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Crimson+Text:400,700|Oswald|Roboto:300,400');
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.navbar-nav i{
+    margin-top: -6px;
+}
+
+.navbar-nav i.fa-facebook{
+    color:rgb(41,128,185);
+}
+
+.navbar-nav i.fa-instagram{
+    color:rgb(231,76,60);
+}
+
+a.nav-link:hover{
+    color:rgb(192,57,43) !important;
+}
+
+section.paralax{
+    background-color:rgb(127,140,141);
+    background-image: url("../assets/paralax3.jpg");
+    /*min-height: 400px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.paralax p{
+    color:rgb(236,240,241);
+    font-family: "Crimson Text", serif;
+    text-align: right;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+section.paralax div.citacao{
+    width: 70%;
+    margin: auto;
+}
+
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section div.container{
+    padding: 25px;
+}
+
+section h2{
+    font-family: "Crimson Text", sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    color:rgb(236,240,241);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+section.missao{
+    color:rgb(236,240,241);
+
+    background-image: url("../assets/paralax4.jpg");
+    background-blend-mode: multiply;
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.missao p{
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+section.contato{
+    min-height:300px;
+    background-color:rgb(44,62,80);
+    color:rgb(236,240,241);
+}
+
+section.contato h3{
+    font-family: "Crimson Text", serif;
+    color:rgb(192,57,43);
+}
+
+section.contato ul li{
+    margin-bottom: 8px;
+}
+
+section.contato ul li a{
+    color:rgb(236,240,241);
+}
+
+section.contato ul li a:hover{
+    color:rgb(189,195,199);
+    text-decoration: none;
+}
+/*
+section.contato ul li i{
+    color:rgb(192,57,43);
+}*/
+
+footer div.container{
+    padding:15px;
+    min-height:50px;
+    font-size:0.8rem;
+}
+
+div.card{
+    border-radius: .15rem;
+    background-color:rgb(236,240,241);
+}
+
+div.card:hover{
+    cursor: pointer;
+    background-color:rgb(255,255,255);
+}
+
+h5.card-title{
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    text-transform: uppercase;
+    color:rgb(192,57,43);
+
+    padding-bottom: 6px;
+    border-bottom: thin solid rgb(189,195,199);
+}
+
+.card-img-top{
+    height:144px;
+}
+
+div.card-body{
+    color:rgb(44, 62, 80);
+}
+
+.card-link{
+    color:rgb(192,57,43);
+}
+
+.card-link:hover{
+    color:rgb(127,140,141);
+}
+
+a.plus-button{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -25px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:rgb(192,57,43);
+    color:rgb(236,240,241);
+}
+
+#scroller-btn{
+    z-index:9999;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background-color:rgba(255,255,255,0.4);
+    color:rgba(231,76,60,0.4);
+    border-radius:50%;
+    display:block;
+    font-size:30px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+}
+
+#scroller-btn:hover{
+    background-color:rgba(255,255,255,0.8);
+    color:rgba(231,76,60,0.8);
+}
+
+@media only screen and (max-width:375px){
+    a.navbar-brand img{
+        max-width: 250px;
+    }
+}
